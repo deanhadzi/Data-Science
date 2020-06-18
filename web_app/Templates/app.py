@@ -35,3 +35,5 @@ def home:
 @app.route("/request/", methods = ['GET', 'POST'])
 def search(user_input=None):
     '''Input from user and gives something back (TODO)'''
+
+return app
