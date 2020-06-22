@@ -1,7 +1,3 @@
-"""
-Entry point for Cannabis recommender API
-"""
+from web_app.app import app
 
-from .app import create_app
-
-APP = create_app()
+APP = app()
